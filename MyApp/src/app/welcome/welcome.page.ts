@@ -19,7 +19,7 @@ export class WelcomePage implements OnInit {
 
   doLogout(){
     localStorage.clear();
-    this.route.navigateByUrl('');
+    this.route.navigate(['']);
   }
 
 }
